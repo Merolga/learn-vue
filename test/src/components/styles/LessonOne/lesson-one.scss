@@ -1,0 +1,10 @@
+.lo {
+    &__row {
+        display: flex;
+        gap: 4px;
+    }
+
+    &__btn {
+        min-width: 25px;
+    }
+}
