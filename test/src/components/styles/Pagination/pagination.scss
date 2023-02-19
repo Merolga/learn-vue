@@ -1,0 +1,15 @@
+.pagination {
+    &__btns {
+        display: flex;
+        gap: 2px;
+    }
+
+    &__list {
+        min-height: 100px;
+    }
+
+    &__label {
+        font-size: 14px;
+        font-style: italic;
+    }
+}

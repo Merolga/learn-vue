@@ -1,0 +1,22 @@
+.count-products {
+    &__row {
+        display: flex;
+        gap: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    &__btn {
+        min-width: 25px;
+    }
+
+    &__label {
+        margin-top: 0;
+        margin-bottom: 0;
+
+        &--size-s {
+            font-size: 12px;
+            font-style: italic;
+        }
+    }
+}

@@ -1,20 +1,21 @@
 <template>
-  <LessonOne />
-
+  <div class="app">
+    <ListTasks />
+  </div>
 </template>
 
 <script>
-
-import LessonOne from './components/LessonOne.vue';
+import ListTasks from './components/ListTasks.vue';
 
 export default {
   name: 'App',
   components: {
-    LessonOne,
+    ListTasks,
   }
 }
 </script>
 
-<style>
-
-</style>
+<styles scoped lang="scss">
+  @import "./styles/component";
+</styles>
+  
