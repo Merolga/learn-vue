@@ -1,0 +1,42 @@
+.container-task {
+    &__btn {
+        width: 100%;
+    }
+
+    &__content {
+        padding: 15px;
+    }
+
+    &__content {
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 3px;
+    }
+}
+
+.container-task-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #d7e5f1;
+    border: none;
+    border-radius: em(3, $fz);
+    color: #203b69;
+    cursor: pointer;
+    text-align: start;
+
+    &__label {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    &__icon {
+        width: 15px;
+        stroke: #203b69;
+        transition: transform 0.3s ease-in-out;
+
+        &--rotate {
+            transform: rotate(180deg);
+        }
+    }
+}
